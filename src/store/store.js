@@ -10,7 +10,6 @@ export default new Vuex.Store({
   mutations: {
     setHotels (state, hotels) {
       state.hotels = hotels;
-      console.dir(state.hotels);
     }
   },
   actions: {

@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Hotels/>
+    <el-container>
+      <Hotels/>
+    </el-container>
   </div>
 </template>
 
@@ -9,7 +11,6 @@ import hotelsData from './store/hotels_data.js'
 import Hotels from './components/Hotels.vue'
 
 export default {
-  name: 'app',
   components: {
     Hotels
   },
@@ -23,11 +24,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
